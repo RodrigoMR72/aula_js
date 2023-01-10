@@ -1,0 +1,19 @@
+const numeros = [1,2,10,4,5];
+
+// Ordem crescente
+
+numeros.sort((a,b) => a - b)
+
+console.log(numeros)
+
+// Ordem decrescente
+
+numeros.sort((a,b) => b - a)
+
+console.log(numeros)
+
+// Ordem pelo primeiro algarismo
+
+numeros.sort()
+
+console.log(numeros)

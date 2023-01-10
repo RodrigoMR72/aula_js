@@ -1,0 +1,7 @@
+// Retornar o maior número do array
+
+const numeros = [1,2,10,4,5];
+
+const maior = Math.max(...numeros)
+
+console.log(maior)

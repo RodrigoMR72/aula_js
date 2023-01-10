@@ -1,0 +1,7 @@
+// Retornar o quadrado dos números
+
+const numeros = [1,2,3,4,5];
+
+const numerosAoQuadrado = numeros.map((value) => Math.pow(value, 2))
+
+console.log(numerosAoQuadrado)
