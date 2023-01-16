@@ -1,0 +1,74 @@
+const meuArray = ['1', '2', '3', '4', '5', '6',7, true, 10, false];
+
+
+// console.log(meuArray);
+// console.log(meuArray[meuArray.length-1]);
+
+// for (var i = 0; i < meuArray.length; i++) {
+
+//     console.log(meuArray[i]);
+
+// }
+
+// meuArray.forEach(function(item){
+//         console.log(item);
+// });
+
+// const meuArrayMutante = meuArray.map(x => x);
+
+// console.log(meuArrayMutante);
+
+const meuArrayMutante = meuArray.map(x => 2);
+
+// console.log(meuArrayMutante);
+
+
+
+// const cores = ['verde', 'amarelo', 'laranja', 'vermelho', 'azul'];
+
+// const coresUp = cores.map((cores) => cores.toUpperCase());
+
+// console.log(cores);
+// console.log(coresUp);
+
+// cores.splice(1,1);
+// console.log(cores);
+
+// const coresUp2 = cores.map((cores) => cores[0].toUpperCase() + cores.substring(1));
+// console.log(coresUp2);
+
+const numeros = meuArrayMutante.map(x => x + Math.floor(Math.random()*10))
+
+// for (var i = 0; i < numeros.length; i++) {
+
+//     valor = numeros[i];
+
+//     if (valor % 2 == 0) {
+        
+//     }
+    
+//     else {
+//         console.log(valor);
+//     }
+
+// } 
+
+console.log(numeros);
+
+
+numeros.forEach(function(item){
+
+  
+    if (item <= 4){
+        
+    }
+    
+    else {
+        console.log(item);
+    }
+});
+
+
+const pares = numeros.filter(item => item % 2 == 0);
+
+console.log(pares);
