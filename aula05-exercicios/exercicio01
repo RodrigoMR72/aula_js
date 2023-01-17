@@ -72,3 +72,4 @@ numeros.forEach(function(item){
 const pares = numeros.filter(item => item % 2 == 0);
 
 console.log(pares);
+
